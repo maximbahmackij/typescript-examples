@@ -1,0 +1,20 @@
+{
+  "name": "either-example",
+  "description": "Example of implementation either structure",
+  "author": "maxim.bahmackij@gmail.com",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon --exec node --loader ts-node/esm src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
